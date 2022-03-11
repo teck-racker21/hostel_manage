@@ -41,11 +41,12 @@ app.get('/hostel',async(req,res)=>     //api creation
 
 app.post('/hostel',(req,res)=>
 {
-    //console.log(req.body);
+    console.log("Guhai nyanjan");
     //res.send("namaha");
     res.json(req.body);
     const hostelObj = new hostel(req.body);
     hostelObj.save();
+    
 
 })
 
