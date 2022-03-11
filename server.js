@@ -31,7 +31,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.get('/hostel',async(req,res)=>     //api creation
 {
     
-    console.log('hello World!');
+    console.log('hello hoolers!');
 
     //res.send("Balaji viyan");
     const hostelList = await hostel.find();
