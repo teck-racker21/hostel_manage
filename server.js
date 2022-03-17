@@ -16,7 +16,7 @@ const hostel = mongoose.model('hostel',hostelSchema);
 
 
 
-const url = "mongodb://localhost:3000/hosteldb?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false";
+const url = "mongodb://localhost:27017/hosteldb?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false";
 
 mongoose.connect(url,{useNewUrlParser:true});
 
